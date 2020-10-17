@@ -30,8 +30,7 @@ public class GeradorMapa {
                     String propriedade = null;
 
                     if(m.isAnnotationPresent(NomePropriedade.class)){
-                        propriedade=
-                                m.getAnnotation(NomePropriedade.class).value();
+                        propriedade= m.getAnnotation(NomePropriedade.class).value();
                     }else{
                         propriedade = deGetterParaPropriedade(m.getName());
                     }
