@@ -1,1 +1,1 @@
-DAO=ClienteDAO;
+com.rubensleme.DAO=com.rubensleme.ClienteDAO
