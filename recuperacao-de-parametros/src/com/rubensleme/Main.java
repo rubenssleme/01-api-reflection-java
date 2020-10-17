@@ -3,7 +3,7 @@ package com.rubensleme;
 import java.util.Map;
 
 public class Main {
-    //Código que executa o método de geração do mapa e imprime
+    //Código que executa o método de geração do mapa e imprime parametros
     public static void main(String[] args) {
         Produto p = new Produto("Design Patterns","LIVRO",59.90,
                 "Publicado pela Casa do Codigo");
